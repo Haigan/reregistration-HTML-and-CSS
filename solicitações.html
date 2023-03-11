@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/solicitacoes.css">
+    <title>SOLICITAÇÕES</title>
+</head>
+
+<body>
+    <header>
+        <h3>SOLICITAÇÕES</h3>
+    </header>
+    <br>
+    <section>
+        <form action="formulario.html" method="get">
+            <fieldset>
+                <legend>SOLICITAÇÃO</legend>
+                <br>
+                <label>protocolo</label>
+            <input type="text" name="protocolo" id="protocolo">
+            <br><br>
+
+            <label>Curso:</label>
+            <select name="Cursos" id="Cursos">
+                <option value="Selecione">Selecione</option>
+                <option value="Sistemas de informação">Sistemas de Informação</option>
+                <option value="Administração">Administração</option>
+                <option value="Engenharia">Engenharia Civil</option>
+            </select>
+            <br><br>
+
+            <label>Data da ausência</label>
+            <input type="date" name="data" id="data" >
+
+            <br><br>
+            <label>Anexe aqui seu comprovante</label>
+            <input type="file" name="arq" id="arq" >
+
+            <br><br>
+            <label>Motivo da ausência:</label>
+            <textarea name="6" id="motivo" name="motivo"></textarea>
+
+            <div>
+                <a id="botao" href="sistema2.html">SOLICITAR</a>
+            </div>
+
+            </fieldset>
+
+        </form>
+    </section>
+   
+    <footer>
+        <H4>GOVERNO DO ESTADO DE MINAS GERAIS</H4>
+    </footer>
+
+</body>
+
+</html>

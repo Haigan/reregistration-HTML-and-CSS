@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cssestilo4.css">
+    <title>Login colaborador</title>
+</head>
+
+<body>
+    <header>
+        <h3>PORTAL COLABORADOR</h3>
+    </header>
+    <section>
+        <form action="formulario.html" method="get">
+            <fieldset>
+                <legend>LOGIN COLABORADOR</legend>
+                <label>Selecione seu cargo:</label>
+            <select name="Profissão" id="Profissão">
+                <option value="Selecione">Selecione</option>
+                <option value="Professor">Professor</option>
+                <option value="Coordenador">Coordenador</option>
+                <option value="Outros">Outros</option>
+            </select>
+            <br><br>
+
+            <label>Matrícula:</label>
+            <input type="text" name="matrícula" id="matrícula">
+
+            <br><br>
+            <div>
+                <label>Turno de trabalho:</label>
+                <br>
+                <input type="radio" name="turno" id="Manhã" checked>Manhã
+                <input type="radio" name="turno" id="Tarde">Tarde
+                <input type="radio" name="turno" id="Noite">Noite
+                <input type="radio" name="turno" id="Noite">Integral
+            </div>
+
+
+            <br><br>
+            <label>Selecione seu Campus:</label>
+            <select name="Campus" id="Campus">
+                <option value="Selecione">Selecione</option>
+                <option value="PIRAPORA">Campus Pirapora</option>
+                <option value="MONTES CLAROS">Campus Montes Claros</option>
+                <option value="ARINOS">Campus Arinos</option>
+                <option value="JANAÚBA">Campus Janaúba</option>
+                <option value="SALINAS">Campus Salinas</option>
+                <option value="JANUÁRIA">Campus Januária</option>
+            </select>
+            <br><br>
+            <div>
+                <a id="botao" href="solicitações.html">ENTRAR</a>
+            </div>
+            <div>
+                <a id="botao" href="Cadastro colaborador.html">CADASTRAR</a>
+            </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <h4>GOVERNO DO ESTADO DE MINAS GERAIS</h4>
+    </footer>
+
+</body>
+
+</html>
